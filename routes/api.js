@@ -8,12 +8,12 @@ var zahirr = db.get("jepribarus");
 	console.log('')
 }
 
-var creatorList = ['Jepri-Barus'];
+var creatorList = ['AlfiyanDev'];
 var creator = creatorList[Math.floor(Math.random() * creatorList.length)];
 var vhtear = 'Tebingtinggi123'
 var xteam = 'AkiraBotWa'
 var leys = 'OneDayOneCharity'
-const listkey = ["bangjep", "pangkal"];
+const listkey = ["aldev", "alfiyan"];
 
 var ytdl = require('ytdl-core');
 var ytpl = require('ytpl');
