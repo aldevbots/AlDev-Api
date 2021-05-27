@@ -13,7 +13,7 @@ var creator = creatorList[Math.floor(Math.random() * creatorList.length)];
 var vhtear = 'Tebingtinggi123'
 var xteam = 'AkiraBotWa'
 var leys = 'OneDayOneCharity'
-const listkey = ["aldev", "alfiyan"];
+const listkey = ["enonino", "alfiyan"];
 
 var ytdl = require('ytdl-core');
 var ytpl = require('ytpl');
