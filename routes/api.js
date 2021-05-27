@@ -3,7 +3,7 @@ __path = process.cwd()
 var express = require('express');
 var db = require(__path + '/database/db');
 try {
-var zahirr = db.get("jepribarus");
+var zahirr = db.get("AlfiyanDev");
 } catch (e) {
 	console.log('')
 }
@@ -160,7 +160,7 @@ var len = 15
             randomlagi += arr[Math.floor(Math.random() * arr.length)];
         }
 
-        var randomTextNumber = random+randomlagi+'---------jepribarus'+'jepri-gans';
+        var randomTextNumber = random+randomlagi+'---------AlfiyanDev'+'jepri-gans';
 
 router.get('/wallpaper/cyberspace', async (req, res, next) => {
         var Apikey = req.query.apikey
@@ -168,7 +168,7 @@ router.get('/wallpaper/cyberspace', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/CyberSpace.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/My-SQL-Results/main/CyberSpace.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -192,7 +192,7 @@ router.get('/wallpaper/teknologi', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/Technology.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/My-SQL-Results/main/Technology.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -217,7 +217,7 @@ router.get('/wallpaper/muslim', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/Islamic.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/My-SQL-Results/main/Islamic.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -242,7 +242,7 @@ router.get('/wallpaper/programming', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/Programming.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/My-SQL-Results/main/Programming.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -267,7 +267,7 @@ router.get('/wallpaper/pegunungan', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/Mountain.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/My-SQL-Results/main/Mountain.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -450,7 +450,7 @@ router.get('/muslim/niatshalat', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/data/dataNiatShalat.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/My-SQL-Results/main/data/dataNiatShalat.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -473,7 +473,7 @@ router.get('/muslim/tahlil', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/data/dataTahlil.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/My-SQL-Results/main/data/dataTahlil.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -496,7 +496,7 @@ router.get('/muslim/wirid', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/data/dataWirid.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/My-SQL-Results/main/data/dataWirid.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -519,7 +519,7 @@ router.get('/muslim/ayatkursi', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/data/dataAyatKursi.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/My-SQL-Results/main/data/dataAyatKursi.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -542,7 +542,7 @@ router.get('/muslim/doaharian', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/data/dataDoaHarian.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/My-SQL-Results/main/data/dataDoaHarian.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -565,7 +565,7 @@ router.get('/muslim/bacaanshalat', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/data/dataBacaanShalat.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/My-SQL-Results/main/data/dataBacaanShalat.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -782,7 +782,7 @@ router.get('/nsfw/ass', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/ass.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/ass.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -806,7 +806,7 @@ router.get('/nsfw/ahegao', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/ahegao.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/ahegao.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -830,7 +830,7 @@ router.get('/nsfw/bdsm', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/bdsm.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/bdsm.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -854,7 +854,7 @@ router.get('/nsfw/blowjob', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/blowjob.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/blowjob.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -878,7 +878,7 @@ router.get('/nsfw/cuckold', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/cuckold.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/cuckold.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -902,7 +902,7 @@ router.get('/nsfw/cum', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/cum.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/cum.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -926,7 +926,7 @@ router.get('/nsfw/ero', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/ero.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/ero.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -950,7 +950,7 @@ router.get('/nsfw/femdom', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/femdom.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/femdom.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -974,7 +974,7 @@ router.get('/nsfw/foot', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/foot.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/foot.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -998,7 +998,7 @@ router.get('/nsfw/gangbang', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/gangbang.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/gangbang.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -1022,7 +1022,7 @@ router.get('/nsfw/glasses', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/glasses.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/glasses.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -1046,7 +1046,7 @@ router.get('/nsfw/hentai', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/hentai.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/hentai.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -1070,7 +1070,7 @@ router.get('/nsfw/hentaigif', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/hnt_gifs.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/hnt_gifs.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -1094,7 +1094,7 @@ router.get('/nsfw/jahy', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/jahy.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/jahy.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -1118,7 +1118,7 @@ router.get('/nsfw/masturbation', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/masturbation.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/masturbation.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -1142,7 +1142,7 @@ router.get('/nsfw/neko', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/nsfwNeko.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/nsfwNeko.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -1166,7 +1166,7 @@ router.get('/nsfw/orgy', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/orgy.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/orgy.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -1190,7 +1190,7 @@ router.get('/nsfw/panties', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/panties.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/panties.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -1214,7 +1214,7 @@ router.get('/nsfw/pussy', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/pussy.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/pussy.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -1238,7 +1238,7 @@ router.get('/nsfw/thighs', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/thighs.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/thighs.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -1262,7 +1262,7 @@ router.get('/nsfw/yuri', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/yuri.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/JB-Api/main/nsfw/yuri.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -1527,7 +1527,7 @@ router.get('/caklontong', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/kuis/main/caklontong.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/kuis/main/caklontong.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -1597,7 +1597,7 @@ router.get('/family100', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/kuis/main/family100.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/kuis/main/family100.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
@@ -1620,7 +1620,7 @@ router.get('/tebakgambar', async (req, res, next) => {
 	if(!Apikey) return res.sendFile(invalidKey)
 	if(listkey.includes(Apikey)){
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/kuis/main/tebakgambar.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/daenghunter/kuis/main/tebakgambar.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
